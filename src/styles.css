@@ -1,0 +1,84 @@
+:root {
+  --button-color: rgb(231, 145, 198);
+  --background-color: pink;
+  --boxshadow-color: 0 5px 10px rgba(126, 67, 111, 0.3);
+  --colom-color: rgb(199, 242, 245);
+}
+body {
+  margin: 60px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+p {
+  opacity: 0.8;
+  font-size: 30px;
+}
+button {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: var(--boxshadow-color);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  background-color: var(--button-color);
+  border-color: pink;
+}
+.container {
+  background-color: var(--colom-color);
+  border: 1px solid var(--button-color);
+  border-radius: 10px;
+  text-align: left;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+.link-1 {
+  color: white;
+}
+
+.about {
+  border-color: var(--button-color);
+}
+
+.link-2 {
+  color: var(--button-color);
+}
+
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.mail {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  text-decoration: none;
+}
+.mail:hover {
+  text-decoration: underline;
+}
