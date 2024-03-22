@@ -82,3 +82,13 @@ a:hover {
 .mail:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 800px) {
+  h1,
+  h2,
+  p,
+  .mail {
+    font-size: 18px;
+    text-align: center;
+  }
+}
