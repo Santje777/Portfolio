@@ -29,14 +29,20 @@ button {
   border-radius: 10px;
   margin: 10px;
   box-shadow: var(--boxshadow-color);
+  color: white;
 }
 .buttons {
   display: flex;
   justify-content: center;
 }
+.about {
+  border-color: var(--button-color);
+  color: var(--button-color);
+}
+
 .contact {
   background-color: var(--button-color);
-  border-color: pink;
+  border-color: var(--button-color);
 }
 .container {
   background-color: var(--colom-color);
@@ -45,25 +51,18 @@ button {
   text-align: left;
   margin: 10px;
 }
-
+.hero {
+  padding-bottom: 150px;
+}
 a {
   text-decoration: none;
 }
 
-a:hover {
+button:hover {
   color: blueviolet;
 }
-
-.link-1 {
-  color: white;
-}
-
-.about {
-  border-color: var(--button-color);
-}
-
-.link-2 {
-  color: var(--button-color);
+a:hover {
+  color: blueviolet;
 }
 
 .text {
