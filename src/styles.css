@@ -56,6 +56,21 @@ button {
 .hero {
   padding-bottom: 150px;
 }
+.about-section {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: left;
+  }
+}
 a {
   text-decoration: none;
 }
