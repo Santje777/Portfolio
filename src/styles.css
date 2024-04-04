@@ -48,10 +48,11 @@ button {
   border-color: var(--button-color);
 }
 .container {
+  display: block;
   background: linear-gradient(var(--colom-color), rgb(34, 116, 224));
   border: 1px solid var(--button-color);
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
   margin: 10px;
 }
 .hero {
@@ -151,6 +152,10 @@ img:hover {
   }
   h2 {
     font-size: 27px;
+    text-align: center;
+  }
+  .btn {
+    display: block;
     text-align: center;
   }
 
